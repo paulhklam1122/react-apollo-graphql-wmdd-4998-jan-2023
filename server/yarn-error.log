@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/Paul/.nvm/versions/node/v18.13.0/bin/node /usr/local/bin/yarn add @apollo/server graphql]
+
+PATH: 
+  /opt/homebrew/opt/openssl@1.0/bin:/Users/Paul/.rbenv/shims:/Users/Paul/Qt5.5.0/5.5/clang_64/bin:/Users/Paul/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/sbin:/Users/Paul/.rbenv/shims:/Users/Paul/.nvm/versions/node/v18.13.0/bin:/Users/Paul/.pyenv/shims:/opt/homebrew/bin:/Users/Paul/Qt5.5.0/5.5/clang_64/bin:/usr/local/bin:/usr/bin:/bin:/sbin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  18.13.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/graphql]: Not found
+      at params.callback [as _callback] (/Users/Paul/.config/yarn/global/node_modules/yarn/lib/cli.js:66988:18)
+      at self.callback (/Users/Paul/.config/yarn/global/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/Users/Paul/.config/yarn/global/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/Users/Paul/.config/yarn/global/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "GraphQL Server (Apollo)",
+    "main": "server.js",
+    "author": "Paul Lam",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
